@@ -21,6 +21,21 @@ export function Watchlist() {
     });
 
 
+
+    if (movies.length === 0) {
+        return (
+            <>
+                <title>{title}</title>
+                <Header />
+                <div className="home-movies-section" style={{ height: "91vh" }}>
+                    <div className="empty-watchlist">Your Watchlist is Empty. Go back and find some Movies to Add</div>
+                    <a className="empty-watchlist-btn" href="/HomePage">Back</a>
+                </div>
+            </>
+        );
+    }
+
+
     return (
         <>
             <title>{title}</title>
