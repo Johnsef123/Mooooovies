@@ -1,0 +1,51 @@
+
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: var(--black);
+    width: 400px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.poster {
+    display: flex;
+    flex-direction: column;
+}
+
+.poster img {
+    width: 300px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movie-body {
+    color: var(--text-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.movie-body h3{
+    font-size: 26px;
+}
+.card-watchlist-button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: var(--black);
+    color: var(--text-color);
+    padding: 20px 10px;
+    border: 2px solid var(--text-color);
+    border-radius: 20px;
+    font-size: larger;
+}
+.card-watchlist-button:hover{
+    cursor: pointer;
+    background-color: var(--background);
+    transition: 0.3s ease;
+}

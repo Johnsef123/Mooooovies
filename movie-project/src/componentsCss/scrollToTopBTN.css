@@ -1,0 +1,16 @@
+.top-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    padding: 10px 10px;
+    border: 2px solid var(--text-color);
+    border-radius: 20px;
+    background: var(--black);
+    color: var(--text-color);
+    cursor: pointer;
+    display: flex;
+
+    z-index: 99999;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}

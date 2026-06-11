@@ -1,0 +1,16 @@
+:root {
+    --black: black;
+    --background: rgb(28, 28, 28);
+    --text-color: white;
+    --text-darker-color: rgb(208, 208, 208);
+
+}
+
+* {
+    font-family: Elms Sans;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

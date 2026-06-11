@@ -1,0 +1,15 @@
+.copy-container{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background);
+    color: var(--text-color);
+    justify-content: center;
+    font-size: larger;
+    
+}
+.copy-symbol{
+    margin: 11px 3px;
+}
+.copy-text{
+    margin: 10px 0;
+}

@@ -1,0 +1,46 @@
+.home-movies-section {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+}
+
+.home-movies-section-title {
+    font-size: 35px;
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px;
+}
+
+.home-movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+}
+
+.empty-watchlist{
+    color: var(--text-color);
+    font-size: xx-large;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+}
+.empty-watchlist-btn{
+    width: 60%;
+    margin: 40px auto;
+    padding: 10px 30px;
+    font-size: x-large;
+    border: none;
+    border-radius: 20px;
+    color: var(--black);
+    background-color: var(--text-color);
+    text-decoration: none;
+    text-align: center;
+}
+.empty-watchlist-btn:hover{
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--black);
+    transition: 0.3s ease;
+}
